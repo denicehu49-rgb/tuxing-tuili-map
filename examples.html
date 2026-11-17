@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>图推差异导图（带例题）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>图推差异导图（带例题）</h1>
+  <p class="lead">结构和无例题版相同。每个容易混淆的分叉下面有一张原讲义截图，用来看清为什么走到这一支。打印选 A4，即可得到 PDF。</p>
+  <nav>
+    <a href="index.html">只看差异</a>
+    <a href="examples.html" aria-current="page">带例题</a>
+  </nav>
+  <div id="tree"></div>
+  <script src="tree.js"></script>
+  <script src="app.js"></script>
+  <script>renderTree(TREE, true);</script>
+</body>
+</html>

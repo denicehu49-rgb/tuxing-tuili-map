@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>图推差异导图</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>图推差异导图</h1>
+  <p class="lead">这一页只看各章差在哪。后章如果只是前章的细化，就挂在那一支下面。打印选 A4，即可得到 PDF。</p>
+  <nav>
+    <a href="index.html" aria-current="page">只看差异</a>
+    <a href="examples.html">带例题</a>
+  </nav>
+  <div id="tree"></div>
+  <script src="tree.js"></script>
+  <script src="app.js"></script>
+  <script>renderTree(TREE, false);</script>
+</body>
+</html>
